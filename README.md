@@ -38,7 +38,7 @@ O **Visit Card** é um projeto simples, mas poderoso, que permite a desenvolvedo
 
 # Protótipo
 
-![Protótipo](Screenshot_20250524-202329.Chrome.png)
+![Protótipo](assets/portfolio-cartao-visitas-dev.png)
 
 # Integrantes do Projeto
 
