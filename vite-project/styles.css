@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --cor-primaria: #BCDEA5;
+    --cor-secundaria: #83988E;
+    --cor-terciaria: #E6F9BC;
+    --cor-quaternaria: #3A111C;
+}
+
+body{
+    background-color: var(--cor-primaria);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: var(--cor-primaria);
+}
+
+.header__conteudo{
+    background-color: var(--cor-quaternaria);
+    width: 98vw;
+    margin: 1.62rem 0.93rem;
+    border-radius: 1rem;
+    padding: 1.87rem 32rem;
+}
+
+.header__titulo{
+    width: 110%;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'inter', 'sans-serif';
+}
