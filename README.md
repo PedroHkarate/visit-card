@@ -39,7 +39,7 @@ O **Visit Card** é um projeto simples, mas poderoso, que permite a desenvolvedo
    npm run dev
 
 ## Portfólio
-![Portfolio](src/assets/portfolio-cartao-visitas-dev.png)
+![Portfolio](assets/portfolio-cartao-visitas-dev.png)
 
 # Integrantes do Projeto
 
