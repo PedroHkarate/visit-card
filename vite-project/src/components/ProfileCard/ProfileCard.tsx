@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa"; // ← Aqui está a importação dos ícones
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import styles from "../ProfileCard/ProfileCard.module.css";
 
 type SocialLinks = {
@@ -23,12 +23,16 @@ const ProfileCard = ({ name, role, avatarUrl, socialLinks = {} }: ProfileCardPro
       <div className={styles["profile-socials"]}>
         {socialLinks.github && (
           <a href={socialLinks.github} target="_blank" rel="noopener noreferrer">
-            <FaGithub size={20} className={styles["profile-icon"]} />
+            <span className={styles["profile-icon"]}>
+              <FaGithub size={20} />
+            </span>
           </a>
         )}
         {socialLinks.linkedin && (
           <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer">
-            <FaLinkedin size={20} className={styles["profile-icon"]} />
+            <span className={styles["profile-icon"]}>
+              <FaLinkedin size={20} />
+            </span>
           </a>
         )}
       </div>
@@ -36,4 +40,4 @@ const ProfileCard = ({ name, role, avatarUrl, socialLinks = {} }: ProfileCardPro
   );
 };
 
-export default ProfileCard;           
+export default ProfileCard;
