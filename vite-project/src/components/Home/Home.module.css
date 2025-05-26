@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --cor-primaria: #BCDEA5;
+    --cor-secundaria: #83988E;
+    --cor-terciaria: #E6F9BC;
+    --cor-quaternaria: #3A111C;
+}
+
+body{
+    background-color: var(--cor-primaria);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-primaria);
+}
+
+.header__conteudo {
+  width: 100vw;
+  margin: 0.5rem auto;
+  padding: 1.25rem 1rem;
+  background-color: var(--cor-quaternaria);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.header__titulo{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'inter', 'sans-serif';
+}
+
+.main__conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.25rem;
+}
+
+.main__subtitulo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-terciaria);
+    padding: 1.37rem 2.06rem;
+    border-radius: 1rem;
+    border: 5px solid var(--cor-quaternaria);
+    max-width: 620px;
+}
+
+.main_subtitulo__texto{
+    font-size: 3rem;
+    font-family: 'inter', 'sans-serif';
+    font-weight: 700;
+    color: #3A111C;
+}
+
+.card {
+    padding: 2rem;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px; 
+  justify-content: center; 
+  padding: 16px;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+@media (max-width: 1024px) {
+  .header__titulo {
+    font-size: 3rem;
+  }
+
+  .main_subtitulo__texto {
+    font-size: 2.5rem;
+  }
+
+  .main__subtitulo {
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__titulo {
+    font-size: 2.5rem;
+  }
+
+  .main_subtitulo__texto {
+    font-size: 2rem;
+  }
+
+  .main__subtitulo {
+    padding: 1rem;
+    border-width: 3px;
+  }
+
+  .cardContainer {
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__titulo {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .main_subtitulo__texto {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .main__subtitulo {
+    flex-direction: column;
+    padding: 0.75rem;
+  }
+
+  .cardContainer {
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+  }
+
+  .card {
+    padding: 1rem;
+    width: 90%;
+  }
+}
