@@ -41,6 +41,9 @@ O **Visit Card** é um projeto simples, mas poderoso, que permite a desenvolvedo
 ## Portfólio
 ![Portfolio](vite-project/src/assets/portfolio-cartao-visitas-dev.png)
 
+## Slide de Apresentação
+- [Slide de Apresentação - GE Frontend Orion](https://drive.google.com/file/d/1xPdD3-YEyKC_oFGqsCNgpA5NnZ1Q7LRD/view?usp=drivesdk)
+
 # Integrantes do Projeto
 
 **Pedro Henrique Feliciano da Silva**  
